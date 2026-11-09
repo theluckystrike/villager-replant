@@ -1,0 +1,69 @@
+{
+  "slug": "villager-replant",
+  "title": "Villager Replant",
+  "summary": "Farmer villagers replant the crop they just harvested, so carrot rows stay carrots and wheat rows stay wheat. Server side, Fabric 26.3.",
+  "project_type": "mod",
+  "categories": [
+    "game-mechanics",
+    "mobs"
+  ],
+  "additional_categories": [
+    "food",
+    "utility"
+  ],
+  "client_side": "unsupported",
+  "server_side": "required",
+  "license_id": "MIT",
+  "source_url": "https://github.com/theluckystrike/villager-replant",
+  "issues_url": "https://github.com/theluckystrike/villager-replant/issues",
+  "wiki_url": "https://github.com/theluckystrike/villager-replant#readme",
+  "donation_urls": [
+    {
+      "id": "github",
+      "platform": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/theluckystrike"
+    },
+    {
+      "id": "paypal",
+      "platform": "PayPal",
+      "url": "https://www.paypal.com/paypalme/najzzz"
+    }
+  ],
+  "icon": "listing/icon.png",
+  "versions": [
+    {
+      "version_number": "1.0.0+26.x",
+      "name": "Villager Replant 1.0.0 for 26.3",
+      "version_type": "release",
+      "loaders": [
+        "fabric"
+      ],
+      "game_versions": [
+        "26.3"
+      ],
+      "featured": true,
+      "changelog_file": "CHANGELOG.md",
+      "file": "mc26/build/libs/villager-replant-fabric-1.0.0+26.x.jar"
+    }
+  ],
+  "gallery": [
+    {
+      "file": "listing/gallery/row-purity.png",
+      "title": "Rows keep their crop",
+      "description": "Plots (of 80) that grow the crop of their row, vanilla and with the mod, on a Fabric 26.3 dedicated server.",
+      "featured": true
+    },
+    {
+      "file": "listing/gallery/farm-top-down-4min.png",
+      "title": "The farm after 4 minutes",
+      "description": "Top-down view of the test farm: vanilla has turned most rows into carrots and potatoes, the mod kept every row.",
+      "featured": false
+    },
+    {
+      "file": "listing/gallery/farm-top-down.png",
+      "title": "The farm after 8 minutes",
+      "description": "Late in the stress test the farmers ran out of wheat and beetroot seeds. The mod keeps those plots for their own crop.",
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "villager-replant",
+	"version": "${version}",
+	"name": "Villager Replant",
+	"description": "Farmer villagers replant the crop they just harvested, so carrot rows stay carrots and wheat rows stay wheat. Server side only.",
+	"authors": ["theluckystrike"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/villager-replant",
+		"sources": "https://github.com/theluckystrike/villager-replant",
+		"issues": "https://github.com/theluckystrike/villager-replant/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/villager-replant/icon.png",
+	"environment": "*",
+	"entrypoints": { "main": ["com.zovo.villagerreplant.VillagerReplantMod"] },
+	"mixins": ["villager-replant.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
